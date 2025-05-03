@@ -3,7 +3,7 @@
 int main(int argc, char* argv[])
 {
 	int code = 0;
-	std::string rootRoute = "/home/hunish/Desktop/coding/CustomCommands/codir/";
+	std::string rootRoute = "/home/hunish/Desktop/coding/HDCodir/";
 	std::string logRoute = rootRoute + "logFile";
 
 	std::string phrasesRoute = configLoader(rootRoute, 2);

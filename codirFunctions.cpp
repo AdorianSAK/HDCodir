@@ -2,9 +2,9 @@
 
 void phraseToShow(int v, std::ifstream& file)
 {
-	std::cout << "\n\n" << BLUE << std::setw(22) << " " 
-			  << "Welcome to your coding directory Hunish! n.n " << HEART
-			  << "~ ♥\n\n";
+	std::cout << "\n\n" << ORANGE << std::setw(22) << " " 
+			  << "Bienvenido a tu Terminal <Usuario>" << HEART
+			  << "\n\n";
 
 	std::string lineToShow;
 	int currentLine = 1;
@@ -13,8 +13,8 @@ void phraseToShow(int v, std::ifstream& file)
 	{
 		if(currentLine == v)
 		{
-			std::cout << std::setw(10) << " " << MAGENTA << lineToShow
-					  << "  💖\n\n";
+			std::cout << std::setw(10) << " " << WHITE << parse_ansi(lineToShow)
+					  << "\n\n";
 			break;
 		}
 		currentLine ++;
@@ -130,4 +130,22 @@ int logCheck(std::string route, int match, int percent)
 	openedLog.close();
 
 	return 0;
+}
+
+// Replace all \e with real escape code
+std::string parse_ansi(const std::string& input)
+{
+    std::string output;
+    for(size_t i = 0; i < input.length(); ++ i)
+    {
+        if(input[i] == '\\' && i + 1 < input.length() && input[i + 1] == 'e')
+        {
+            output += '\x1B'; // real escape character
+            ++i; // skip 'e'
+        } else
+        {
+            output += input[i];
+        }
+    }
+    return output;
 }

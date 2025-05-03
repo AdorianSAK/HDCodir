@@ -1,0 +1,19 @@
+Sabías que Robert es un Dios?
+Listo para convertirte en el terror de la informática?
+Necesitas reiniciar? Intnta con \e[48;5;242mreboot\e[0m
+Necesitas reiniciar? Intnta con \e[48;5;242mreboot\e[0m
+Necesitas reiniciar? Intnta con \e[48;5;242mreboot\e[0m
+Necesitas reiniciar? Intnta con \e[48;5;242mreboot\e[0m
+Necesitas reiniciar? Intnta con \e[48;5;242mreboot\e[0m
+Necesitas reiniciar? Intnta con \e[48;5;242mreboot\e[0m
+Necesitas reiniciar? Intnta con \e[48;5;242mreboot\e[0m
+Necesitas reiniciar? Intnta con \e[48;5;242mreboot\e[0m
+Si un servicio falla, un rápido \e[48;5;242systemctl restart\e[0m podría ser la solución.
+Si un servicio falla, un rápido \e[48;5;242systemctl restart\e[0m podría ser la solución.
+Si un servicio falla, un rápido \e[48;5;242systemctl restart\e[0m podría ser la solución.
+Si un servicio falla, un rápido \e[48;5;242systemctl restart\e[0m podría ser la solución.
+Si un servicio falla, un rápido \e[48;5;242systemctl restart\e[0m podría ser la solución.
+Si un servicio falla, un rápido \e[48;5;242systemctl restart\e[0m podría ser la solución.
+Si un servicio falla, un rápido \e[48;5;242systemctl restart\e[0m podría ser la solución.
+Si un servicio falla, un rápido \e[48;5;242systemctl restart\e[0m podría ser la solución.
+Si un servicio falla, un rápido \e[48;5;242systemctl restart\e[0m podría ser la solución.
